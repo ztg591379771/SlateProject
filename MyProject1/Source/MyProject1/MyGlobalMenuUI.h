@@ -74,6 +74,10 @@ class MYPROJECT1_API SMyGlobalMenuUI : public SCompoundWidget
 	EVisibility GetLittleLeftMenuVisibility() const;
 	EVisibility LeftMenuVisiblility;
 	EVisibility LittleLeftMenuVisiblility;
+
+
+protected:
+	FReply ChangeTextColor();
 public:
 	//APawn* Pawn;
 private:
@@ -89,6 +93,6 @@ private:
 	/////** Get the text that should be highlighted on any items */
 	////FText GetHighlightText() const;
 
-
+	
 
 };

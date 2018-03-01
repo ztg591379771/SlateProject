@@ -3,7 +3,7 @@
 #pragma once
 #include "SlateBasics.h"
 #include "CoreMinimal.h"
-#include "MyLeftMenuWidgetStyle.h"
+#include "MyCheckBoxStyle.h"
 #include "MyMenuStyle.h"
 #include "Widgets/SCompoundWidget.h"
 
@@ -29,7 +29,7 @@ public:
 	SLATE_END_ARGS()
 	void Construct(const FArguments& InArgs);
 
-	const struct FLeftMenuStyle* LeftMenuStyle;
+	const struct FMyLeftCheckBoxStyle* LeftCheckBoxStyle;
 private:
 	//创建一个选择框控件
 	TSharedRef< SWidget > CreateMyInfoTap(const MyInfo& Info);
